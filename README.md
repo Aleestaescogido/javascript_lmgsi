@@ -1,0 +1,2 @@
+# javascript_lmgsi
+exercicis
