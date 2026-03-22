@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>PokeAPI</title>
+  <style>
+    body {
+      font-family: Arial;
+      padding: 20px;
+    }
+    input {
+      padding: 8px;
+      width: 150px;
+    }
+    button {
+      padding: 8px 15px;
+      margin: 5px;
+      background: #007bff;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #0056b3;
+    }
+    textarea {
+      width: 100%;
+      height: 150px;
+      margin: 10px 0;
+    }
+    img {
+      max-width: 200px;
+      margin: 10px 0;
+    }
+  </style>
+</head>
+<body>
+  <h1>Buscador Pokemon</h1>
+  
+  <input type="text" id="pokemonInput" placeholder="pikachu">
+  
+  <button id="btnXML">XML</button>
+  <button id="btnAbilities">Habilidades</button>
+  <button id="btnSprite">Imagen</button>
+  
+  <div>
+    <h3>Resultado XML:</h3>
+    <textarea id="xmlOutput"></textarea>
+  </div>
+  
+  <div>
+    <h3>Habilidades:</h3>
+    <div id="abilitiesOutput"></div>
+  </div>
+  
+  <div>
+    <h3>Imagen:</h3>
+    <div id="spriteOutput"></div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
